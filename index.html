@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://wallpapers.com/images/hd/nude-color-background-oupv3mwnjf6ybdfd.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header, nav, footer {
+            width: 100%;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+        main {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding: 20px;
+        }
+        section {
+            background: rgba(255, 255, 255, 0.9);
+            margin: 0 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 0 0 300px;
+            min-height: 300px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .header-content img {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .header-content h1 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+        .header-content p {
+            font-size: 1.2em;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .portfolio-item, .internship-item {
+            margin-bottom: 20px;
+        }
+        .contact-details p {
+            margin: 10px 0;
+        }
+        .contact-details a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            padding: 10px 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Jayasri Photo.jpeg" alt="Icon">
+            <h1>Ms.Jayasri R.B</h1>
+            <p><i class="fas fa-code"></i> I am a Web Developer</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+            <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+            <li><a href="#internship"><i class="fas fa-history"></i> Internship</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate Web Developer with expertise in HTML, CSS, JavaScript, and React. I enjoy creating beautiful and functional websites and continuously strive to learn new technologies.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-code"></i> Programming Languages: HTML, JavaScript, C++, OOPS Java</li>
+                <li><i class="fas fa-paint-brush"></i> Frontend: HTML5, CSS3, JavaScript, React</li>
+                <li><i class="fas fa-server"></i> Backend: Node.js</li>
+            </ul>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <h3><i class="fas fa-project-diagram"></i> Project 1</h3>
+                <p>This project is based on basic HTML Tags, CSS, and JavaScript.</p>
+                <p><i class="fab fa-github"></i> GitHub Link: <a href="https://github.com/krishnsri/sample1.git" target="_blank">https://github.com/krishnsri/sample1.git</a></p>
+                <h4>Project 2</h4>
+                <p>This project is based on C++.</p>
+                <p><i class="fab fa-github"></i> GitHub Link: <a href="https://github.com/JayasriKrishna2004/codsoft.git" target="_blank">https://github.com/JayasriKrishna2004/codsoft.git</a></p>
+            </div>
+        </section>
+        <section id="internship">
+            <h2>Experience</h2>
+            <div class="internship-item">
+                <h3><i class="fas fa-building"></i> Krish Tech Private Limited</h3>
+                <p>Internship for 3 months | May 2024 - July 2024</p>
+                <ul>
+                    <li><i class="fas fa-laptop-code"></i> Actively engaged in web creative design and development of data science.</li>
+                    <li><i class="fas fa-project-diagram"></i> Designing project & planning.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>School/College</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>C.E.O.A</td>
+                    <td>2020</td>
+                    <td>97%</td>
+                </tr>
+                <tr>
+                    <td>C.E.O.A</td>
+                    <td>2022</td>
+                    <td>91%</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> <b>Email:</b> <a href="mailto:jayasrikrishna2004@gmail.com">jayasrikrishna2004@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> <b>Mobile:</b> 7708412932</p>
+                <p><i class="fas fa-map-marker-alt"></i> <b>Address:</b> 26/1, Jegarabegam Street, Sammattipuram Main Road, Meenakshipuram, Madurai-625016.</p>
+                <p><i class="fab fa-linkedin"></i> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jayasri-r-b-345832258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></p>
+                <p><i class="fab fa-github"></i> <b>GitHub:</b> <a href="https://github.com/krishnsri" target="_blank">GitHub Profile</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ms. Jayasri R.B All rights reserved.</
